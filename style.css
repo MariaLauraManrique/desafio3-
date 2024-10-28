@@ -20,10 +20,14 @@ p{
 }
 .tamaño{
   width: 20%;
-  }
-#centrado{
-  align-items: center;
+
 }
+#centrado{
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+}
+
 .derecha{
   float: right;
 }
@@ -32,4 +36,7 @@ float: left;
 }
 .total{
   width: 100%;
+}
+#margen{
+  margin: 20px;
 }
